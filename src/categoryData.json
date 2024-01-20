@@ -1,0 +1,78 @@
+[
+    {
+        "categoryName": "Drinks",
+        "allfoods": [
+            {
+                "id": "10",
+                "name": "Green Tea",
+                "description": "Live in Green",
+                "imageUrl": "https://getinfolist.com/wp-content/uploads/2015/11/Green_tea_recipe.jpg",
+                "rate": "70"
+            },
+           
+            {
+                "id": "16",
+                "name": "Passion Fruit Mojitho",
+                "description": "Taken from Nature",
+                "imageUrl": "https://cookienameddesire.com/wp-content/uploads/2016/05/passion-fruit-mojito-recipe-photo-1-360x544.jpg",
+                "rate": "95"
+            },
+            {
+                "id": "17",
+                "name": "StrawBerry Mojitho",
+                "description": "Cute One",
+                "imageUrl": "https://www.platingsandpairings.com/wp-content/uploads/2020/08/strawberry-mojito-recipe-4-1365x2048.jpg",
+                "rate": "90"
+            }
+        ],
+        "id": 2
+    },
+    {
+        "categoryName": "Sea Food",
+        "allfoods": [
+            {
+                "id": "18",
+                "name": "Prawns Tawa Fish",
+                "description": "Small things can gives more hopes",
+                "imageUrl": "https://homemademe469876202.files.wordpress.com/2020/07/d2649-whatsapp-image-2019-08-23-at-9.18.20-pm-1.jpeg",
+                "rate": "420"
+            },
+            {
+                "id": "19",
+                "name": "Thai Grilled Fish",
+                "description": "Fish Griilled in Thai",
+                "imageUrl": "https://tasteandsee.com/wp-content/uploads/2018/06/Grilled-Chili-Lime-Shrimp-OT-medium-skewer-2.jpg",
+                "rate": "460"
+            },
+            {
+                "id": "20",
+                "name": "Tawa fish",
+                "description": "seems nice",
+                "imageUrl": "https://www.licious.in/blog/wp-content/uploads/2020/12/Fish-Tawa-Fry.jpg",
+                "rate": "530"
+            },
+            {
+                "id": "21",
+                "name": "Thai Fish Curry",
+                "description": "Thai special in curry",
+                "imageUrl": "https://www.theendlessmeal.com/wp-content/uploads/2021/01/Thai-Fish-Curry-1025x1536.jpg",
+                "rate": "260"
+            },
+            {
+                "id": "22",
+                "name": "Kanthari fish Tawa",
+                "description": "Too Spicy",
+                "imageUrl": "https://3.bp.blogspot.com/-xtrZDhZbLCQ/UXnYu2mglrI/AAAAAAAAI4Q/oloC_8YWK6k/s640/DSC_0023.JPG",
+                "rate": "280"
+            },
+            {
+                "id": "23",
+                "name": "Koonthal Tawa",
+                "description": "koonthaL modified",
+                "imageUrl": "https://i.pinimg.com/736x/c3/eb/78/c3eb78850c0c825cbe2040ce15375570--roast-recipes-fish-recipes.jpg",
+                "rate": "320"
+            }
+        ],
+        "id": 3
+    }
+]

@@ -2,6 +2,7 @@ import React from 'react'
 import { Col, Row, Button, Card } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
 import HeaderMain from '../Components/HeaderMain'
+import img from '../Images/logo.png'
 
 
 function LandingPage() {
@@ -13,7 +14,7 @@ function LandingPage() {
             <Row>
               <Col className='w-full flex items-center' sm={12} lg={6}>
                 <div className='md:ms-10 mt-5'>
-                  <h1 className='text-center'>Habibi Welcome to <span className='text-red-700 font-bold'>Black Pepper</span></h1>
+                  <h1 className='text-center'>Habibi Welcome to <span className='text-red-700 font-bold'>Lucknow Darbar</span></h1>
                   <p className='mt-4 text-center'>We understand how much taste matters. The spicier, the better. we bring the spice, bring the adventure. Believe ! Nobody does it better.</p>
                   <div className='flex justify-center mt-5'>
                     <Link to={'/menu'}><Button className='btn btn-lg text-black' style={{backgroundColor:"#C53030",border:'0'}}><span className='font-bold px-2'>Explore the Menu</span></Button></Link>
@@ -22,7 +23,8 @@ function LandingPage() {
               </Col>
               <Col sm={12} lg={6}>
                 <div className='w-full h-full flex justify-center'>
-                  <img className='w-11/12 h-11/12' src="https://media0.giphy.com/media/3fg5liRZ7N4Ur5P5uV/source.gif" alt="" />
+                  {/* <img className='w-11/12 h-11/12' src="https://media0.giphy.com/media/3fg5liRZ7N4Ur5P5uV/source.gif" alt="" /> */}
+                  <img className='w-11/12 h-11/12' src={img} alt="" />
                 </div>
               </Col>
             </Row>
@@ -87,19 +89,20 @@ function LandingPage() {
                 <Row>
                   <Col sm={12} lg={6}>
                     <div className='px-5 mt-3 mb-5'>
-                      <h4><i className="fa-solid fa-pepper-hot fa-bounce text-red-700 mt-5"></i><span className='ms-2 font-bold'>Black Pepper</span></h4>
+                      <h4><i className="fa-solid fa-pepper-hot fa-bounce text-red-700 mt-5"></i><span className='ms-2 font-bold'>Lucknow Darbar</span></h4>
                       <h6>
                         <i class="fa-solid fa-location-dot text-white mt-2"></i>
                         <p>
-                          London, UK <br/>
-                          155 Spartanz street, Romo 26h57
+                          5/596 <br/>
+                          Vikaskhand 5, Gwari Village, Vikas Khand, Gomti Nagar, Lucknow, Uttar Pradesh 226010
                         </p>
                       </h6> 
                     </div>                
                   </Col>
                   <Col sm={12} lg={6}>
                     <div className='flex justify-center mt-3 mb-3'>
-                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d39738.34447791315!2d-0.20816126720951064!3d51.501353670687955!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487604d35782503b%3A0xe091ef1f691b7fb9!2sL&#39;ETO%20Caffe!5e0!3m2!1sen!2sin!4v1699121356830!5m2!1sen!2sin" style={{border:'1',width:'250px',height:'250px'}} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7119.816451814868!2d80.99699045939303!3d26.84287114492052!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399be3006b3b2e07%3A0x82f6ed7d1504c6b6!2sFrenzi%20Restaurant%20and%20Cafe!5e0!3m2!1sen!2sin!4v1705731466605!5m2!1sen!2sin" style={{border:'1',width:'250px',height:'250px'}} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                      {/* <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7119.816451814868!2d80.99699045939303!3d26.84287114492052!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399be3006b3b2e07%3A0x82f6ed7d1504c6b6!2sFrenzi%20Restaurant%20and%20Cafe!5e0!3m2!1sen!2sin!4v1705731466605!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> */}
                     </div>
                   </Col>
                 </Row>
