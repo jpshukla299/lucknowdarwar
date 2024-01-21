@@ -14,7 +14,7 @@ function LandingPage() {
             <Row>
               <Col className='w-full flex items-center' sm={12} lg={6}>
                 <div className='md:ms-10 mt-5'>
-                  <h1 className='text-center'> Welcome to <span className='text-red-700 font-bold'>Lucknow Darbar inn</span></h1>
+                  <h1 className='text-center'> Welcome to <span className='text-red-700 font-bold'>Lucknow Darbar</span></h1>
                   <p className='mt-4 text-center'>We understand how much taste matters. The spicier, the better. we bring the spice, bring the adventure. Believe ! Nobody does it better.</p>
                   <div className='flex justify-center mt-5'>
                     <Link to={'/menu'}><Button className='btn btn-lg text-black' style={{backgroundColor:"#C53030",border:'0'}}><span className='font-bold px-2'>Explore the Menu</span></Button></Link>
@@ -94,7 +94,8 @@ function LandingPage() {
                         <i class="fa-solid fa-location-dot text-white mt-2"></i>
                         <p>
                           5/596 <br/>
-                          Vikaskhand 5, Gwari Village, Vikas Khand, Gomti Nagar, Lucknow, Uttar Pradesh 226010
+                          Vikaskhand 5, Gwari Village, Vikas Khand, Gomti Nagar, Lucknow, Uttar Pradesh 226010<br/>
+                          Contact Us : 969544840
                         </p>
                       </h6> 
                     </div>                
